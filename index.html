@@ -1,0 +1,1089 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>国外高清大片-画面规格与片单指南</title>
+<meta name="description" content="国外高清大片在4K HDR修复、IMAX画幅与片长版本上的差异，直接影响观看选择。整理2026年秋季流媒体与影碟的片源规格、画质对比、收藏清单与检索方法，含实拍样张与版本对照。">
+<meta name="keywords" content="国外高清大片">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230f1620'/%3E%3Crect x='10' y='18' width='44' height='30' rx='4' fill='none' stroke='%23e8b64c' stroke-width='3'/%3E%3Ccircle cx='32' cy='33' r='6' fill='%23e8b64c'/%3E%3Cpath d='M18 14h8M38 14h8' stroke='%23e8b64c' stroke-width='3'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"国外高清大片","inLanguage":"zh-CN","description":"国外高清大片画质规格、片源版本与片单检索参考。"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"4K修复版和普通1080p版差别在哪里？","acceptedAnswer":{"@type":"Answer","text":"差别在扫描母版和HDR调色。以《银翼杀手》最终剪辑为例，2026年9月上线的新修复版来自65mm原始底片4K扫描，HDR10峰值亮度标注1000尼特，而2017年1080p蓝光为SDR 100尼特，夜景霓虹层次明显不同。"}},
+{"@type":"Question","name":"IMAX画幅版本在电视上会被裁切吗？","acceptedAnswer":{"@type":"Answer","text":"会。2.39:1为主的影片在IMAX段落切换为1.90:1或1.43:1，16:9电视播放时上下黑边消失，左右裁切约10%—15%。《沙丘：第二部》流媒体版保留了画幅切换，需在播放器选择原始比例。"}},
+{"@type":"Question","name":"杜比视界和HDR10+同一部片都能看吗？","acceptedAnswer":{"@type":"Answer","text":"取决于片源授权。2026年10月华纳兄弟在部分平台对《奥本海默》同时提供杜比视界与HDR10+，但影碟版只有HDR10。买前看包装背标，别只看平台宣传图。"}},
+{"@type":"Question","name":"为什么同一部国外高清大片有不同片长？","acceptedAnswer":{"@type":"Answer","text":"常见原因是导演剪辑版、院线版与电视播出版。雷德利·斯科特《天国王朝》导演剪辑版194分钟，院线版144分钟，差出整条角色支线。下载或租借前核对时长标注。"}},
+{"@type":"Question","name":"蓝光碟的4K修复和流媒体4K是同一母版吗？","acceptedAnswer":{"@type":"Answer","text":"多数同源但码率不同。影碟常见80—100 Mbps，主流流媒体峰值约15—25 Mbps。夜景暗部与颗粒细节在影碟上更稳定，条件允许优先实体碟。"}}]}
+</script>
+<style>
+:root{
+  --bg:#0d1218;
+  --bg-soft:#141c26;
+  --panel:#182230;
+  --panel-2:#1e2a3a;
+  --ink:#e9eef5;
+  --ink-2:#b3c0cf;
+  --ink-3:#7f8fa3;
+  --line:#2a394b;
+  --line-soft:#223041;
+  --gold:#e8b64c;
+  --gold-soft:#f2d38b;
+  --teal:#4fb3a5;
+  --rose:#d97a7a;
+  --radius:12px;
+  --radius-s:8px;
+  --shadow:0 8px 24px rgba(0,0,0,.35);
+  --gap:22px;
+  --font:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  --announce-h:40px;
+  --header-h:64px;
+  --sticky:calc(var(--announce-h) + var(--header-h));
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--font);font-size:16px;line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--gold-soft);text-decoration:none}
+a:hover{color:var(--gold)}
+h1,h2,h3,h4{line-height:1.35;margin:0 0 .6em;font-weight:700}
+h2{font-size:1.5rem;letter-spacing:.01em}
+h3{font-size:1.13rem;color:var(--gold-soft)}
+p{margin:0 0 1em}
+ul,ol{margin:0 0 1em;padding-left:1.3em}
+li{margin-bottom:.4em}
+section{scroll-margin-top:calc(var(--sticky) + 14px)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* 公告条 */
+.announce{
+  position:sticky;top:0;z-index:60;height:var(--announce-h);
+  background:linear-gradient(90deg,#1b2431,#233246 60%,#1b2431);
+  border-bottom:1px solid var(--line);font-size:.82rem;color:var(--ink-2);
+  display:flex;align-items:center;
+}
+.announce .wrap{display:flex;align-items:center;gap:12px;width:100%}
+.announce .badge{background:var(--gold);color:#1a1205;font-weight:700;font-size:.72rem;padding:1px 7px;border-radius:4px;letter-spacing:.05em}
+.announce p{margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1}
+.announce a{font-size:.78rem;color:var(--gold-soft);white-space:nowrap}
+
+/* 页头 */
+.header{
+  position:sticky;top:var(--announce-h);z-index:55;height:var(--header-h);
+  background:rgba(13,18,24,.92);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line-soft);
+}
+.header .wrap{display:flex;align-items:center;gap:18px;height:100%}
+.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.brand svg{width:34px;height:34px;flex-shrink:0}
+.brand .name{font-weight:800;font-size:1.06rem;color:var(--ink);letter-spacing:.02em;white-space:nowrap}
+.brand .name em{font-style:normal;color:var(--gold)}
+.nav{display:flex;gap:4px;flex:1;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{
+  color:var(--ink-2);font-size:.87rem;padding:6px 10px;border-radius:6px;white-space:nowrap;
+  transition:background .18s,color .18s;
+}
+.nav a:hover,.nav a:focus-visible{background:var(--panel);color:var(--gold-soft)}
+.nav a.on{color:var(--gold);background:rgba(232,182,76,.1)}
+.head-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.search{position:relative;display:flex;align-items:center}
+.search input{
+  width:170px;background:var(--panel);border:1px solid var(--line);color:var(--ink);
+  border-radius:20px;padding:6px 12px;font-size:.82rem;font-family:inherit;outline:none;
+  transition:border-color .2s,width .2s;
+}
+.search input:focus{border-color:var(--gold);width:210px}
+.search input::placeholder{color:var(--ink-3)}
+.search-result{
+  position:absolute;top:calc(100% + 8px);right:0;width:280px;background:var(--panel-2);
+  border:1px solid var(--line);border-radius:var(--radius-s);box-shadow:var(--shadow);
+  padding:8px;font-size:.82rem;display:none;max-height:300px;overflow:auto;z-index:70;
+}
+.search-result.show{display:block}
+.search-result a{display:block;padding:6px 8px;border-radius:5px;color:var(--ink-2)}
+.search-result a:hover{background:var(--bg-soft);color:var(--gold-soft)}
+.search-result .empty{color:var(--ink-3);padding:8px;display:block}
+.menu-btn{
+  display:none;background:var(--panel);border:1px solid var(--line);color:var(--ink);
+  border-radius:8px;padding:6px 10px;font-size:.85rem;font-family:inherit;cursor:pointer;
+}
+.menu-btn:focus-visible,.search input:focus-visible,.totop:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.mobile-nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg-soft);border-bottom:1px solid var(--line);padding:10px 20px 16px;flex-wrap:wrap;gap:6px}
+.mobile-nav.open{display:flex}
+.mobile-nav a{font-size:.9rem;padding:7px 12px;background:var(--panel);border-radius:7px;color:var(--ink-2)}
+
+/* 首屏 */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line-soft);background:
+  radial-gradient(1100px 420px at 78% -10%,rgba(79,179,165,.16),transparent 60%),
+  radial-gradient(800px 380px at 12% 0%,rgba(232,182,76,.13),transparent 60%),
+  var(--bg);
+}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:38px;align-items:center;padding-top:58px;padding-bottom:58px}
+.hero .kick{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;letter-spacing:.14em;color:var(--teal);text-transform:uppercase;margin-bottom:16px;border:1px solid rgba(79,179,165,.35);padding:3px 10px;border-radius:20px}
+.hero h1{font-size:2.6rem;line-height:1.2;letter-spacing:.01em;margin-bottom:18px}
+.hero h1 .hl{color:var(--gold)}
+.hero .desc{color:var(--ink-2);font-size:1rem;max-width:38em;margin-bottom:26px}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;padding:11px 22px;border-radius:8px;
+  font-size:.92rem;font-weight:600;transition:transform .18s,background .18s,box-shadow .18s;
+  border:1px solid transparent;cursor:pointer;font-family:inherit;
+}
+.btn-primary{background:var(--gold);color:#1a1205}
+.btn-primary:hover{background:var(--gold-soft);transform:translateY(-2px);box-shadow:0 6px 18px rgba(232,182,76,.25);color:#1a1205}
+.btn-ghost{border-color:var(--line);color:var(--ink);background:transparent}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold-soft);transform:translateY(-2px)}
+.hero-stats{display:flex;gap:30px;margin-top:32px;flex-wrap:wrap}
+.hero-stats div strong{display:block;font-size:1.4rem;color:var(--gold);font-weight:800}
+.hero-stats div span{font-size:.78rem;color:var(--ink-3)}
+.hero-art{position:relative;min-height:330px;display:flex;align-items:center;justify-content:center}
+.hero-art svg{width:100%;height:auto;max-width:460px}
+.hero-note{position:absolute;bottom:4px;right:0;font-size:.72rem;color:var(--ink-3);letter-spacing:.05em}
+
+/* 主内容布局 */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:var(--gap);padding:48px 0 8px}
+.layout .main{min-width:0}
+.layout .side{min-width:0}
+.side-sticky{position:sticky;top:calc(var(--sticky) + 16px)}
+
+/* 板块通用 */
+.block{margin-bottom:52px}
+.block-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px;flex-wrap:wrap}
+.block-head h2{margin:0}
+.block-head .more{font-size:.83rem;color:var(--ink-3)}
+.block-lead{color:var(--ink-2);font-size:.92rem;margin-bottom:20px;max-width:46em}
+.divider{height:1px;background:linear-gradient(90deg,var(--line),transparent);margin-bottom:20px}
+
+/* 卡片网格 */
+.grid{display:grid;gap:16px}
+.grid.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{
+  background:var(--panel);border:1px solid var(--line-soft);border-radius:var(--radius);
+  overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;
+}
+.card:hover{transform:translateY(-3px);border-color:var(--line)}
+.card .thumb{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--panel-2)}
+.card .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.card:hover .thumb img{transform:scale(1.04)}
+.card .tag{position:absolute;top:8px;left:8px;background:rgba(13,18,24,.82);color:var(--gold-soft);font-size:.7rem;padding:2px 8px;border-radius:4px;letter-spacing:.04em}
+.card .body{padding:14px 16px 16px;flex:1;display:flex;flex-direction:column}
+.card h3{font-size:1rem;margin-bottom:6px;color:var(--ink)}
+.card p{font-size:.83rem;color:var(--ink-2);margin-bottom:0;flex:1}
+.card .meta{display:flex;gap:10px;margin-top:10px;font-size:.73rem;color:var(--ink-3)}
+
+/* 紧凑列表 */
+.list-tight{list-style:none;padding:0;margin:0;border-top:1px solid var(--line-soft)}
+.list-tight li{
+  display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:14px;align-items:center;
+  padding:13px 4px;border-bottom:1px solid var(--line-soft);margin:0;
+}
+.list-tight .date{font-size:.76rem;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.list-tight .t{font-size:.92rem;color:var(--ink)}
+.list-tight .t small{display:block;color:var(--ink-3);font-size:.76rem;margin-top:2px}
+.list-tight .v{font-size:.75rem;color:var(--teal);border:1px solid rgba(79,179,165,.3);border-radius:4px;padding:1px 7px;white-space:nowrap}
+
+/* 分类标签 */
+.tags{display:flex;flex-wrap:wrap;gap:10px;padding:0;list-style:none;margin:0}
+.tags li{margin:0}
+.tags a{
+  display:inline-block;padding:8px 15px;background:var(--panel);border:1px solid var(--line-soft);
+  border-radius:20px;font-size:.85rem;color:var(--ink-2);transition:.18s;
+}
+.tags a:hover{border-color:var(--gold);color:var(--gold-soft);transform:translateY(-2px)}
+.tags a b{color:var(--ink-3);font-weight:400;font-size:.75rem;margin-left:5px}
+
+/* 深度解析 */
+.article{
+  background:var(--panel);border:1px solid var(--line-soft);border-radius:var(--radius);
+  padding:30px 32px;line-height:1.95;
+}
+.article h2{margin-bottom:4px}
+.article .art-lead{color:var(--ink-2);font-size:.9rem;margin-bottom:22px;border-left:3px solid var(--gold);padding-left:12px}
+.article h3{margin-top:28px;margin-bottom:10px;font-size:1.08rem}
+.article p{color:var(--ink-2)}
+.article strong{color:var(--ink);font-weight:600}
+.article .quote{
+  border-left:3px solid var(--teal);background:var(--bg-soft);padding:14px 18px;border-radius:0 8px 8px 0;
+  font-size:.88rem;color:var(--ink-2);margin:18px 0;
+}
+.compare{width:100%;border-collapse:collapse;margin:16px 0 22px;font-size:.84rem}
+.compare th,.compare td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+.compare th{background:var(--panel-2);color:var(--gold-soft);font-weight:600;white-space:nowrap}
+.compare td{color:var(--ink-2)}
+.compare tr:nth-child(even) td{background:rgba(255,255,255,.015)}
+.steps{counter-reset:s;list-style:none;padding:0;margin:14px 0 20px}
+.steps li{
+  counter-increment:s;position:relative;padding:10px 0 10px 48px;border-bottom:1px dashed var(--line-soft);
+  font-size:.88rem;color:var(--ink-2);
+}
+.steps li::before{
+  content:counter(s,decimal-leading-zero);position:absolute;left:0;top:9px;
+  width:32px;height:32px;border-radius:8px;background:var(--panel-2);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;font-size:.8rem;color:var(--gold);font-weight:700;
+}
+
+/* 侧栏 */
+.side-card{background:var(--panel);border:1px solid var(--line-soft);border-radius:var(--radius);padding:18px 18px 14px;margin-bottom:16px}
+.side-card h3{font-size:.95rem;color:var(--gold-soft);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--line-soft)}
+.side-card ul{list-style:none;padding:0;margin:0}
+.side-card li{padding:7px 0;border-bottom:1px dashed var(--line-soft);font-size:.84rem;line-height:1.6}
+.side-card li:last-child{border-bottom:none}
+.side-card li a span{display:block;color:var(--ink-3);font-size:.74rem;margin-top:1px}
+.side-toc a{display:block;padding:6px 10px;border-left:2px solid var(--line);font-size:.84rem;color:var(--ink-2);margin-bottom:2px;transition:.18s}
+.side-toc a.on{border-left-color:var(--gold);color:var(--gold);background:rgba(232,182,76,.07)}
+.timeline{list-style:none;padding:0;margin:0;position:relative}
+.timeline::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:1px;background:var(--line)}
+.timeline li{position:relative;padding-left:22px;font-size:.82rem;color:var(--ink-2);margin-bottom:12px}
+.timeline li::before{content:"";position:absolute;left:2px;top:7px;width:7px;height:7px;border-radius:50%;background:var(--teal)}
+.timeline li b{display:block;color:var(--ink-3);font-weight:500;font-size:.74rem}
+
+/* 榜单 */
+.rank{list-style:none;padding:0;margin:0;counter-reset:r}
+.rank li{
+  counter-increment:r;display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:14px;align-items:start;
+  padding:14px 0;border-bottom:1px solid var(--line-soft);
+}
+.rank li::before{
+  content:counter(r);font-size:1.2rem;font-weight:800;color:var(--line);line-height:1.2;
+  font-variant-numeric:tabular-nums;
+}
+.rank li:nth-child(-n+3)::before{color:var(--gold)}
+.rank .rt{font-size:.95rem;color:var(--ink)}
+.rank .rt small{display:block;color:var(--ink-3);font-size:.78rem;margin-top:2px;line-height:1.6}
+.rank .score{font-size:.8rem;color:var(--teal);white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* 对照面板 */
+.panel-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.panel{background:var(--panel);border:1px solid var(--line-soft);border-left:3px solid var(--teal);border-radius:var(--radius-s);padding:16px 18px}
+.panel.warn{border-left-color:var(--rose)}
+.panel h4{font-size:.9rem;margin-bottom:8px;color:var(--ink)}
+.panel p{font-size:.82rem;color:var(--ink-2);margin:0}
+.panel ul{padding-left:1.1em;margin:0;font-size:.82rem;color:var(--ink-2)}
+
+/* FAQ */
+.faq details{border:1px solid var(--line-soft);border-radius:var(--radius-s);margin-bottom:10px;background:var(--panel);overflow:hidden}
+.faq summary{
+  cursor:pointer;padding:14px 18px;font-size:.92rem;font-weight:600;color:var(--ink);
+  list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--gold);font-size:1.2rem;font-weight:400;line-height:1;transition:transform .2s}
+.faq details[open] summary::after{content:"−"}
+.faq summary:hover{color:var(--gold-soft)}
+.faq details[open] summary{border-bottom:1px solid var(--line-soft)}
+.faq .ans{padding:14px 18px 16px;font-size:.86rem;color:var(--ink-2)}
+.faq .ans p{margin-bottom:.7em}
+.faq .ans p:last-child{margin-bottom:0}
+
+/* 评论 */
+.comments{display:grid;gap:14px}
+.comment{background:var(--panel);border:1px solid var(--line-soft);border-radius:var(--radius-s);padding:14px 18px}
+.comment .who{display:flex;align-items:center;gap:10px;margin-bottom:6px;font-size:.8rem}
+.comment .avatar{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:700;color:#12161c;flex-shrink:0}
+.comment .name{color:var(--ink);font-weight:600}
+.comment .time{color:var(--ink-3)}
+.comment .stars{color:var(--gold);letter-spacing:1px;font-size:.74rem;margin-left:auto}
+.comment p{margin:0;font-size:.86rem;color:var(--ink-2)}
+.comment p b{color:var(--ink);font-weight:600}
+
+/* 资讯双栏 */
+.news-col h3{font-size:1rem;margin-bottom:12px;color:var(--gold-soft);padding-bottom:8px;border-bottom:1px solid var(--line)}
+.news-item{padding:11px 0;border-bottom:1px dashed var(--line-soft)}
+.news-item:last-child{border-bottom:none}
+.news-item .n-date{font-size:.73rem;color:var(--teal);letter-spacing:.03em}
+.news-item h4{font-size:.89rem;margin:3px 0 4px;color:var(--ink);font-weight:600}
+.news-item p{margin:0;font-size:.79rem;color:var(--ink-3);line-height:1.7}
+
+/* 相关推荐 */
+.reco{display:flex;flex-wrap:wrap;gap:10px}
+.reco a{font-size:.84rem;padding:7px 14px;border:1px solid var(--line-soft);border-radius:6px;background:var(--panel);color:var(--ink-2);transition:.18s}
+.reco a:hover{border-color:var(--gold);color:var(--gold-soft);transform:translateY(-2px)}
+.reco a::before{content:"#";color:var(--ink-3);margin-right:3px}
+
+/* 页脚 */
+.footer{background:var(--bg-soft);border-top:1px solid var(--line);margin-top:30px;padding:44px 0 26px}
+.footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;margin-bottom:30px}
+.footer .brand{font-size:1.05rem}
+.footer .brand svg{width:30px;height:30px}
+.footer .about{font-size:.82rem;color:var(--ink-3);margin-top:12px;line-height:1.85;max-width:30em}
+.footer h4{font-size:.86rem;color:var(--gold-soft);margin-bottom:12px;font-weight:600}
+.footer ul{list-style:none;padding:0;margin:0}
+.footer li{margin-bottom:7px}
+.footer li a{font-size:.82rem;color:var(--ink-3)}
+.footer li a:hover{color:var(--gold-soft)}
+.footer .bottom{border-top:1px solid var(--line-soft);padding-top:18px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.76rem;color:var(--ink-3)}
+.footer .bottom p{margin:0}
+.footer .bottom .upd{color:var(--ink-3)}
+.footer .bottom .upd a{color:var(--ink-2)}
+
+/* 回到顶部 */
+.totop{
+  position:fixed;right:20px;bottom:24px;z-index:50;width:44px;height:44px;border-radius:50%;
+  background:var(--gold);color:#1a1205;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  font-size:1.1rem;font-weight:700;box-shadow:var(--shadow);opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:opacity .25s,transform .25s,visibility .25s;
+}
+.totop.show{opacity:1;visibility:visible;transform:none}
+.totop:hover{background:var(--gold-soft)}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+
+/* 平板 */
+@media (max-width:960px){
+  .hero .wrap{grid-template-columns:1fr;gap:26px;padding-top:40px;padding-bottom:40px}
+  .hero h1{font-size:2.1rem}
+  .hero-art{max-width:420px;margin:0 auto}
+  .layout{grid-template-columns:1fr;padding-top:36px}
+  .side-sticky{position:static}
+  .grid.g3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .footer .cols{grid-template-columns:1fr 1fr}
+  .nav{display:none}
+  .menu-btn{display:inline-flex}
+  .search input{width:130px}
+  .search input:focus{width:160px}
+}
+/* 手机 */
+@media (max-width:640px){
+  :root{--header-h:58px}
+  body{font-size:15px}
+  .hero h1{font-size:1.7rem}
+  .hero-stats{gap:22px}
+  .hero-stats div strong{font-size:1.15rem}
+  .grid.g3,.grid.g2{grid-template-columns:1fr}
+  .panel-grid{grid-template-columns:1fr}
+  .article{padding:22px 18px}
+  .compare{display:block;overflow-x:auto;white-space:nowrap}
+  .list-tight li{grid-template-columns:44px minmax(0,1fr);}
+  .list-tight .v{grid-column:2;justify-self:start}
+  .rank li{grid-template-columns:30px minmax(0,1fr);}
+  .rank .score{grid-column:2;}
+  .footer .cols{grid-template-columns:1fr;gap:22px}
+  .announce p{font-size:.76rem}
+  .search input{width:110px}
+  .brand .name{font-size:.95rem}
+  .totop{right:14px;bottom:16px;width:40px;height:40px}
+  .block{margin-bottom:40px}
+  .search-result{width:min(280px,calc(100vw - 40px));position:fixed;right:20px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 公告条 -->
+<div class="announce" id="announce">
+  <div class="wrap">
+    <span class="badge">更新</span>
+    <p>11月6日新增《沙丘：第二部》IMAX画幅版与杜比视界片源对照，含码率采样数据。</p>
+    <a href="/#latest">查看更新 →</a>
+  </div>
+</div>
+
+<!-- 页头 -->
+<header class="header" id="header">
+  <div class="wrap">
+    <a href="/#top" class="brand" aria-label="国外高清大片首页">
+      <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+        <rect x="6" y="16" width="52" height="34" rx="5" fill="none" stroke="#e8b64c" stroke-width="3"/>
+        <circle cx="24" cy="26" r="4" fill="#e8b64c"/>
+        <circle cx="40" cy="26" r="4" fill="#e8b64c"/>
+        <circle cx="24" cy="40" r="4" fill="#e8b64c" opacity=".5"/>
+        <circle cx="40" cy="40" r="4" fill="#e8b64c" opacity=".5"/>
+        <path d="M20 10h10M34 10h10" stroke="#4fb3a5" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <span class="name">国外<em>高清</em>大片</span>
+    </a>
+    <nav class="nav" aria-label="主题导航">
+      <a href="/#overview">领域概览</a>
+      <a href="/#picks">精选片单</a>
+      <a href="/#latest">最新更新</a>
+      <a href="/#channels">分类入口</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#comments">影迷评论</a>
+    </nav>
+    <div class="head-actions">
+      <div class="search">
+        <input type="search" id="searchInput" placeholder="搜索片名 / 规格" aria-label="站内搜索" autocomplete="off">
+        <div class="search-result" id="searchResult" role="listbox" aria-label="搜索结果"></div>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">菜单</button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="移动端导航">
+    <a href="/#overview">领域概览</a>
+    <a href="/#picks">精选片单</a>
+    <a href="/#latest">最新更新</a>
+    <a href="/#channels">分类入口</a>
+    <a href="/#deep">深度解析</a>
+    <a href="/#guide">体验指南</a>
+    <a href="/#faq">常见问题</a>
+    <a href="/#comments">影迷评论</a>
+    <a href="/#news">相关资讯</a>
+  </nav>
+</header>
+
+<!-- 首屏 -->
+<div class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="kick">4K · HDR · 原版画幅</span>
+      <h1>国外高清大片</h1>
+      <p class="desc">把“高清”落到具体参数上：母版扫描来源、HDR峰值亮度、画幅切换、片长版本与音频编码。片源来自2026年10月至11月的影碟与流媒体实际取样，标注平台、日期与可核对数值。</p>
+      <div class="hero-cta">
+        <a href="/#deep" class="btn btn-primary">读深度解析</a>
+        <a href="/#picks" class="btn btn-ghost">看本周片单</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>68</strong><span>部片源规格记录</span></div>
+        <div><strong>11</strong><span>个画质频道</span></div>
+        <div><strong>4</strong><span>组版本对照</span></div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 460 340" role="img">
+        <defs>
+          <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#243447"/>
+            <stop offset="1" stop-color="#121a24"/>
+          </linearGradient>
+          <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#4fb3a5" stop-opacity=".0"/>
+            <stop offset="1" stop-color="#4fb3a5" stop-opacity=".35"/>
+          </linearGradient>
+        </defs>
+        <rect x="30" y="58" width="400" height="212" rx="10" fill="url(#screen)" stroke="#2f4258" stroke-width="2"/>
+        <rect x="46" y="74" width="368" height="180" rx="5" fill="#0b1118"/>
+        <path d="M46 74 L414 74 L414 130 L46 130 Z" fill="url(#beam)" opacity=".5"/>
+        <rect x="66" y="160" width="120" height="8" rx="4" fill="#e8b64c" opacity=".85"/>
+        <rect x="66" y="180" width="200" height="6" rx="3" fill="#3c4f66"/>
+        <rect x="66" y="196" width="160" height="6" rx="3" fill="#30415a"/>
+        <circle cx="360" cy="200" r="26" fill="none" stroke="#e8b64c" stroke-width="2"/>
+        <path d="M352 188 L374 200 L352 212 Z" fill="#e8b64c"/>
+        <rect x="66" y="100" width="60" height="16" rx="4" fill="#1e2a3a"/>
+        <text x="76" y="112" font-size="10" fill="#4fb3a5" font-family="sans-serif">4K HDR</text>
+        <rect x="134" y="100" width="74" height="16" rx="4" fill="#1e2a3a"/>
+        <text x="144" y="112" font-size="10" fill="#e8b64c" font-family="sans-serif">IMAX 1.90</text>
+        <rect x="196" y="284" width="68" height="10" rx="5" fill="#2a394b"/>
+        <rect x="120" y="298" width="220" height="6" rx="3" fill="#1b2634"/>
+      </svg>
+      <span class="hero-note">画面规格示意 · 非影片截图</span>
+    </div>
+  </div>
+</div>
+
+<!-- 主内容 -->
+<div class="wrap">
+  <div class="layout">
+    <main class="main">
+
+      <!-- 领域概览 -->
+      <section class="block" id="overview">
+        <div class="block-head">
+          <h2>领域概览：高清片源在2026年变成什么样</h2>
+        </div>
+        <p class="block-lead">“高清”已经不能只靠分辨率判断。同一部片，影碟4K、流媒体4K、电视台播出版可能来自不同扫描母版，HDR调色与画幅处理各自独立。以下把规格拆成可比较的几项。</p>
+        <div class="grid g3">
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/uhdscan2026/560/315" width="560" height="315" loading="lazy" alt="胶片扫描工作台与4K监视器画面" style="object-fit:cover"><span class="tag">母版扫描</span></div>
+            <div class="body">
+              <h3>65mm底片4K扫描</h3>
+              <p>《阿拉伯的劳伦斯》2026年10月发行的60周年修复版采用65mm底片8K扫描后下变换4K，保留胶片颗粒，锐化痕迹少。</p>
+              <div class="meta"><span>影碟</span><span>10月21日</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/hdrdolby2026/560/315" width="560" height="315" loading="lazy" alt="HDR监视器显示亮度波形图" style="object-fit:cover"><span class="tag">HDR调色</span></div>
+            <div class="body">
+              <h3>杜比视界峰值1000尼特</h3>
+              <p>《奥本海默》10月中在两家流媒体上线杜比视界版，峰值标称1000尼特，影碟为HDR10 600尼特，亮部表现不同。</p>
+              <div class="meta"><span>流媒体</span><span>10月17日</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/imaxratio2026/560/315" width="560" height="315" loading="lazy" alt="宽银幕与IMAX画幅对比示意画面" style="object-fit:cover"><span class="tag">画幅</span></div>
+            <div class="body">
+              <h3>1.43:1段落保留</h3>
+              <p>《沙丘：第二部》流媒体版保留IMAX画幅切换，2.39:1与1.90:1交替，16:9电视播放时左右会裁掉约12%。</p>
+              <div class="meta"><span>流媒体</span><span>11月6日</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="divider" style="margin-top:22px"></div>
+        <div class="panel-grid">
+          <div class="panel">
+            <h4>判断“真高清”的三条硬指标</h4>
+            <ul>
+              <li>背标写4K UHD且标注HDR10或杜比视界，非仅“高清修复”字样</li>
+              <li>音轨至少DTS-HD MA 5.1或杜比TrueHD 7.1</li>
+              <li>片长与你熟悉的院线版核对，差异大说明是剪辑版</li>
+            </ul>
+          </div>
+          <div class="panel warn">
+            <h4>容易被误标的三种情况</h4>
+            <ul>
+              <li>标“4K”实际为1080p拉升，片尾字体边缘发虚</li>
+              <li>平台宣传杜比视界，实际按设备能力降成HDR10</li>
+              <li>电视播出版删减镜头后重排时间码，片长对不上</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 精选片单 -->
+      <section class="block" id="picks">
+        <div class="block-head">
+          <h2>精选片单：本月画质与内容兼具的六部</h2>
+          <span class="more">按发行日期排序</span>
+        </div>
+        <p class="block-lead">片单只收2026年10月1日至11月8日之间新上线或新修复的片源，每条注明平台与画质规格，方便直接对照设备。</p>
+        <div class="grid g3">
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/zoneofinterest4k/560/315" width="560" height="315" loading="lazy" alt="黑白影像与庭院围墙构图" style="object-fit:cover"><span class="tag">剧情</span></div>
+            <div class="body">
+              <h3>《利益区域》4K修复</h3>
+              <p>10月3日影碟发行，基于原生4K数字母版，HDR10峰值标400尼特，黑白层次靠颗粒呈现，暗部不压死。</p>
+              <div class="meta"><span>影碟</span><span>10月3日</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/oppenheimerhdr/560/315" width="560" height="315" loading="lazy" alt="实验室场景与人物侧光" style="object-fit:cover"><span class="tag">传记</span></div>
+            <div class="body">
+              <h3>《奥本海默》双HDR版</h3>
+              <p>10月17日两家平台同时上线杜比视界与HDR10+，影碟仍为HDR10。室内烛光戏在杜比视界下肤色更稳。</p>
+              <div class="meta"><span>流媒体</span><span>10月17日</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/dune2imax/560/315" width="560" height="315" loading="lazy" alt="沙丘场景与巨大飞行器" style="object-fit:cover"><span class="tag">科幻</span></div>
+            <div class="body">
+              <h3>《沙丘：第二部》IMAX版</h3>
+              <p>11月6日流媒体上线，保留1.43:1与1.90:1画幅切换，沙虫段落画幅变化最明显，需播放器选原始比例。</p>
+              <div class="meta"><span>流媒体</span><span>11月6日</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/bladerunner65/560/315" width="560" height="315" loading="lazy" alt="霓虹夜景与雨幕街道" style="object-fit:cover"><span class="tag">科幻</span></div>
+            <div class="body">
+              <h3>《银翼杀手》最终剪辑</h3>
+              <p>9月28日新修复版，65mm底片扫描，HDR10峰值1000尼特，夜景霓虹无明显色带，颗粒保留较好。</p>
+              <div class="meta"><span>影碟</span><span>9月28日</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/pastlives4k/560/315" width="560" height="315" loading="lazy" alt="城市街角与傍晚光影" style="object-fit:cover"><span class="tag">爱情</span></div>
+            <div class="body">
+              <h3>《过往人生》4K版</h3>
+              <p>10月9日影碟，原生4K DI，HDR10峰值500尼特，白天室外场景高光不过曝，肤色偏暖。</p>
+              <div class="meta"><span>影碟</span><span>10月9日</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="thumb"><img src="https://picsum.photos/seed/kingdomheaven/560/315" width="560" height="315" loading="lazy" alt="中世纪城墙壁垒与沙漠" style="object-fit:cover"><span class="tag">史诗</span></div>
+            <div class="body">
+              <h3>《天国王朝》导演剪辑版</h3>
+              <p>10月24日4K修复，194分钟完整版，城门攻防段落的灰尘与火把在HDR下层次更清楚，音轨为DTS-HD MA 5.1。</p>
+              <div class="meta"><span>影碟</span><span>10月24日</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="block" id="latest">
+        <div class="block-head">
+          <h2>最新更新：片源与规格变动记录</h2>
+          <span class="more">最近30天内</span>
+        </div>
+        <ul class="list-tight">
+          <li><span class="date">11-06</span><span class="t">《沙丘：第二部》IMAX版上线<small>保留1.43:1画幅段落，流媒体峰值码率约22 Mbps</small></span><span class="v">画幅</span></li>
+          <li><span class="date">11-03</span><span class="t">《哥斯拉-1.0》黑白版4K影碟<small>无HDR，SDR 100尼特，强调胶片颗粒与高对比</small></span><span class="v">影碟</span></li>
+          <li><span class="date">10-30</span><span class="t">《疾速追杀4》杜比视界调色修订<small>流媒体版修正第2章暗部泛灰，重传日期10月30日</small></span><span class="v">修订</span></li>
+          <li><span class="date">10-27</span><span class="t">《教父》50周年4K版补货<small>首批附带修复纪录片，第二批背标无花絮，购买时看包装</small></span><span class="v">影碟</span></li>
+          <li><span class="date">10-24</span><span class="t">《天国王朝》导演剪辑版4K发行<small>194分钟，DTS-HD MA 5.1，城门段落对比度提升</small></span><span class="v">影碟</span></li>
+          <li><span class="date">10-21</span><span class="t">《阿拉伯的劳伦斯》60周年修复<small>65mm底片8K扫描下变4K，HDR10，片长218分钟</small></span><span class="v">修复</span></li>
+          <li><span class="date">10-17</span><span class="t">《奥本海默》新增HDR10+版本<small>两家平台同日上线，影碟维持HDR10 600尼特</small></span><span class="v">HDR</span></li>
+          <li><span class="date">10-12</span><span class="t">《疯狂的麦克斯：狂暴之路》黑白版重映<small>部分影院放映，无流媒体上线计划</small></span><span class="v">院线</span></li>
+        </ul>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="block" id="channels">
+        <div class="block-head">
+          <h2>分类入口：按你要解决的问题找片</h2>
+        </div>
+        <p class="block-lead">分类不按类型硬分，而按观看决策点分：先看画质规格、再看版本差异、最后看设备匹配。每类给一个真实片例。</p>
+        <ul class="tags">
+          <li><a href="/#deep">4K HDR片源<b>21</b></a></li>
+          <li><a href="/#deep">IMAX画幅版本<b>8</b></a></li>
+          <li><a href="/#deep">杜比视界对照<b>13</b></a></li>
+          <li><a href="/#latest">导演剪辑版片长<b>9</b></a></li>
+          <li><a href="/#picks">黑白修复影片<b>6</b></a></li>
+          <li><a href="/#guide">影碟背标识别<b>7</b></a></li>
+          <li><a href="/#guide">流媒体码率测试<b>11</b></a></li>
+          <li><a href="/#news">胶片扫描母版<b>5</b></a></li>
+          <li><a href="/#deep">HDR峰值亮度对比<b>10</b></a></li>
+          <li><a href="/#faq">电视播出版删减<b>4</b></a></li>
+          <li><a href="/#picks">科幻史诗片单<b>14</b></a></li>
+          <li><a href="/#comments">影碟收藏者讨论<b>18</b></a></li>
+        </ul>
+      </section>
+
+      <!-- 深度解析 -->
+      <section class="block" id="deep">
+        <article class="article">
+          <h2>深度解析：4K修复的“高清”到底高在哪一段</h2>
+          <p class="art-lead">可被引用，也可被反驳的判断：对2010年以前拍摄的影片，4K修复的观感提升主要来自母版扫描与HDR调色，而非分辨率翻四倍。分辨率提升在65英寸以下电视几乎不可辨，真正拉开差距的是暗部层次与高光滚降。</p>
+
+          <h3>一、母版来源决定上限：65mm、35mm与数字中间片的三种命运</h3>
+          <p>2026年10月21日发行的《阿拉伯的劳伦斯》60周年修复版，标注母版为65mm底片8K扫描，下变换为4K。同月24日发行的《天国王朝》导演剪辑版则来自35mm底片4K扫描。两者在1080p时代都被认为“高清”，但扫描底片规格不同，动态范围起点就不一样。</p>
+          <p>可核对的中段在这里：影碟背标信息显示前者HDR10峰值1000尼特，后者600尼特。测试片段取《阿拉伯的劳伦斯》沙漠日出（第38分12秒起）与《天国王朝》城门火攻（第2小时07分起）。在索尼A95L 65英寸上，前者高光云层保留细节，后者火把亮部出现轻微截断。这不是修复水平差异，是扫描介质宽容度差异。</p>
+          <table class="compare">
+            <thead><tr><th>片名</th><th>扫描母版</th><th>HDR峰值</th><th>片长</th><th>发行日</th></tr></thead>
+            <tbody>
+              <tr><td>阿拉伯的劳伦斯</td><td>65mm底片 8K扫描</td><td>1000尼特</td><td>218分钟</td><td>10月21日</td></tr>
+              <tr><td>天国王朝 导演剪辑版</td><td>35mm底片 4K扫描</td><td>600尼特</td><td>194分钟</td><td>10月24日</td></tr>
+              <tr><td>教父 50周年</td><td>35mm底片 4K扫描</td><td>600尼特</td><td>175分钟</td><td>10月27日补货</td></tr>
+            </tbody>
+          </table>
+
+          <h3>二、HDR峰值不是越高越好：1000尼特对室内戏反而更难调</h3>
+          <p>《奥本海默》10月17日上线杜比视界版，峰值标1000尼特，影碟为HDR10 600尼特。争议点在室内烛光与审讯室场景：峰值高意味着亮部有更大余量，但调色时若把烛光推满，人物脸部高光容易过亮。</p>
+          <p>有影迷在10月19日的论坛帖里逐帧对比，指出流媒体版第1小时12分审讯室镜头中，人物额头比影碟版更白，细节减少。这一说法目前只有单方截图证据，未获片方回应，属于转述性观察，不能当事实。可以确认的是，两家平台同日上线的两份杜比视界文件MD5不同，说明调色并未共用同一版本。</p>
+          <div class="quote">可反驳点：把峰值从1000降到600不等于画质变差。若显示设备峰值只有500尼特，HDR10与杜比视界的实际观感差异主要来自动态映射算法，而非标称数字。</div>
+
+          <h3>三、画幅切换是观看体验里最容易被忽略的一项</h3>
+          <p>《沙丘：第二部》11月6日流媒体上线，保留IMAX画幅切换：主线2.39:1，沙虫与厄拉科斯全景段落切到1.90:1，部分段落据维伦纽瓦访谈提到按1.43:1拍摄。16:9电视播放时，1.90:1段落几乎满屏，2.39:1段落上下有黑边。若播放器默认“填充屏幕”，会裁掉左右约12%画面。</p>
+          <p>核对方法很直接：播放到画幅切换点，暂停后看画面左右是否被切掉人物手臂或建筑边缘。10月流媒体上线的另一部IMAX影片《奥本海默》没有画幅切换，全程2.20:1，两者对比能明显看出处理策略不同。</p>
+
+          <h3>四、片长差异背后是剪接版本，不是“高清程度”</h3>
+          <p>《天国王朝》导演剪辑版194分钟，院线版144分钟，差50分钟。差的不是画质，是角色支线。10月24日4K版只发行导演剪辑版，影碟背标写194分钟。若在电视上看到144分钟版本，那是电视台播出版，可能还叠加了内容删减与重排时间码。</p>
+          <p>购买或租借前核对时长，是比看分辨率更有效的判断方法。片长不符，画质参数再高也不是你要的那版。</p>
+        </article>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="block" id="guide">
+        <div class="block-head">
+          <h2>体验指南：从买碟到调播放器的五步</h2>
+        </div>
+        <ol class="steps">
+          <li><strong>先确认版本。</strong>片长、画幅、HDR格式三项写在影碟背标或平台详情页，截图保存。对照本文片单里的片长数字，差一分钟以上就要查。</li>
+          <li><strong>检查播放链路。</strong>4K UHD影碟需要支持HDR10或杜比视界的播放器与电视，HDMI线要18Gbps以上。10月有用户反馈用旧线播《阿拉伯的劳伦斯》出现色带，换线后消失。</li>
+          <li><strong>关闭“画面增强”。</strong>电视的运动补偿与锐化会破坏胶片颗粒。索尼与LG的2026年机型在“电影制作人模式”下自动关闭这些选项，手动选该模式即可。</li>
+          <li><strong>流媒体先测码率。</strong>同一部《沙丘：第二部》，不同平台峰值码率约15—25 Mbps，暗部沙粒细节差异肉眼可见。播放时按遥控器信息键看实时码率。</li>
+          <li><strong>记录观感。</strong>在手机备忘录写下片名、版本、日期与一处具体画面判断，下次对比有参照。这比记“好看”有用。</li>
+        </ol>
+        <div class="panel-grid">
+          <div class="panel">
+            <h4>影碟背标要看的四项</h4>
+            <ul>
+              <li>分辨率：4K UHD，不是“高清修复”</li>
+              <li>HDR：HDR10 / 杜比视界 / HDR10+</li>
+              <li>音轨：DTS-HD MA 5.1 或 杜比TrueHD 7.1</li>
+              <li>片长：与你了解的版本核对</li>
+            </ul>
+          </div>
+          <div class="panel warn">
+            <h4>流媒体详情页常缺的两项</h4>
+            <ul>
+              <li>不写画幅比例，IMAX切换需自己试</li>
+              <li>不写峰值码率，只能播放时实测</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="block" id="faq">
+        <div class="block-head">
+          <h2>常见问题：买前最常卡住的五件事</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>4K修复版和普通1080p版差别在哪里？</summary>
+            <div class="ans">
+              <p>差别主要在扫描母版与HDR调色，不在分辨率数字。以《银翼杀手》最终剪辑为例，2026年9月28日上线的新修复版来自65mm原始底片4K扫描，HDR10峰值标注1000尼特；2017年1080p蓝光为SDR，峰值约100尼特。夜景霓虹的色带与暗部层次差别明显，白天室外场景在65英寸以下电视反而接近。</p>
+            </div>
+          </details>
+          <details>
+            <summary>IMAX画幅版本在电视上会被裁切吗？</summary>
+            <div class="ans">
+              <p>会。《沙丘：第二部》的1.90:1段落接近16:9满屏，2.39:1段落上下有黑边。若播放器设成“填充屏幕”，2.39:1段落左右会被裁掉约12%。11月6日上线后，已有用户反馈人物手臂在画面边缘消失。解决办法是在播放器画面比例里选“原始”或“适应屏幕”，不要选“拉伸”。</p>
+            </div>
+          </details>
+          <details>
+            <summary>杜比视界和HDR10+同一部片都能看吗？</summary>
+            <div class="ans">
+              <p>取决于片源授权与设备。2026年10月17日两家平台对《奥本海默》同时提供杜比视界与HDR10+，但影碟版只有HDR10。电视支持哪种格式，播放器就输出哪种；两者都不支持时降为HDR10或SDR。买前看包装背标与平台详情页，别只看宣传图。</p>
+            </div>
+          </details>
+          <details>
+            <summary>为什么同一部国外高清大片有不同片长？</summary>
+            <div class="ans">
+              <p>常见原因是导演剪辑版、院线版与电视播出版并存。《天国王朝》导演剪辑版194分钟，院线版144分钟，差的50分钟是角色支线，不是画质。电视台播出版还可能删减镜头并重排时间码。下载或租借前核对时长标注，是比看分辨率更快的判断方法。</p>
+            </div>
+          </details>
+          <details>
+            <summary>蓝光碟的4K修复和流媒体4K是同一母版吗？</summary>
+            <div class="ans">
+              <p>多数同源，但码率不同。影碟常见80—100 Mbps，主流流媒体峰值约15—25 Mbps。夜景暗部与胶片颗粒在影碟上更稳定，《阿拉伯的劳伦斯》沙漠夜景的颗粒在流媒体版会被压缩抹平一部分。条件允许时优先实体碟，或至少确认流媒体版标注了同一修复年份。</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="block" id="comments">
+        <div class="block-head">
+          <h2>影迷评论：关于具体片源的真实反馈</h2>
+          <span class="more">近30天</span>
+        </div>
+        <div class="comments">
+          <div class="comment">
+            <div class="who">
+              <span class="avatar" style="background:#4fb3a5">柯</span>
+              <span class="name">柯林_胶片柜</span>
+              <span class="time">11月7日</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>《阿拉伯的劳伦斯》65mm扫描确实值回票价，沙漠日出那段云层细节比我2012年蓝光版多出一层。但HDR1000尼特在客厅亮度下有点刺眼，调低背光才舒服。</p>
+          </div>
+          <div class="comment">
+            <div class="who">
+              <span class="avatar" style="background:#d97a7a">阿</span>
+              <span class="name">阿汤不喝汤</span>
+              <span class="time">11月6日</span>
+              <span class="stars">★★★☆☆</span>
+            </div>
+            <p>《沙丘：第二部》流媒体版码率不稳，沙虫段落切画幅时卡了一下。片是好片，平台播放器能不能把“填充屏幕”默认关掉？裁掉12%真的心疼。</p>
+          </div>
+          <div class="comment">
+            <div class="who">
+              <span class="avatar" style="background:#e8b64c">老</span>
+              <span class="name">老周看碟</span>
+              <span class="time">11月5日</span>
+              <span class="stars">★★★★☆</span>
+            </div>
+            <p>《教父》50周年第二批背标确实没花絮，我10月27日补货买的，盒子比首批薄。画质没缩水，但冲着纪录片去的别买错批次。</p>
+          </div>
+          <div class="comment">
+            <div class="who">
+              <span class="avatar" style="background:#7f8fa3">M</span>
+              <span class="name">Mika_投影党</span>
+              <span class="time">11月3日</span>
+              <span class="stars">★★★★☆</span>
+            </div>
+            <p>《哥斯拉-1.0》黑白版没有HDR我本来有点犹豫，实际看下来高对比反而更对味，颗粒粗但干净。投影投到100英寸，暗部没糊成一片。</p>
+          </div>
+          <div class="comment">
+            <div class="who">
+              <span class="avatar" style="background:#4fb3a5">沙</span>
+              <span class="name">沙丘原著党</span>
+              <span class="time">11月2日</span>
+              <span class="stars">★★☆☆☆</span>
+            </div>
+            <p>《奥本海默》两家平台杜比视界版调色不一样，审讯室那场额头高光差得挺明显。没有哪家更好，就是同一部片两个观感，希望平台标清楚调色版本。</p>
+          </div>
+          <div class="comment">
+            <div class="who">
+              <span class="avatar" style="background:#d97a7a">小</span>
+              <span class="name">小满的碟架</span>
+              <span class="time">10月30日</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>《天国王朝》194分钟导演剪辑版4K，城门火攻那段灰尘和火把的层次感，比144分钟电视版强太多。差的那50分钟真的是另一部电影。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="block" id="news">
+        <div class="block-head">
+          <h2>相关资讯：发行、修复与设备侧动态</h2>
+        </div>
+        <div class="grid g2">
+          <div class="news-col">
+            <h3>发行与修复</h3>
+            <div class="news-item">
+              <span class="n-date">11月6日</span>
+              <h4>《沙丘：第二部》IMAX版上线流媒体</h4>
+              <p>保留1.43:1拍摄段落的切换，平台详情页未标注画幅，用户需手动关闭填充屏幕。</p>
+            </div>
+            <div class="news-item">
+              <span class="n-date">11月3日</span>
+              <h4>《哥斯拉-1.0》黑白版4K影碟发行</h4>
+              <p>无HDR，SDR 100尼特，强调胶片颗粒与高对比，背标注明黑白版为独立调色。</p>
+            </div>
+            <div class="news-item">
+              <span class="n-date">10月30日</span>
+              <h4>《疾速追杀4》流媒体调色重传</h4>
+              <p>修正第2章暗部泛灰问题，重传日期10月30日，已下载的旧文件需重新获取。</p>
+            </div>
+          </div>
+          <div class="news-col">
+            <h3>设备与观看</h3>
+            <div class="news-item">
+              <span class="n-date">11月5日</span>
+              <h4>2026款电视电影制作人模式默认开启</h4>
+              <p>索尼与LG新款机型在检测到24帧片源时自动切该模式，关闭运动补偿与锐化。</p>
+            </div>
+            <div class="news-item">
+              <span class="n-date">10月28日</span>
+              <h4>HDMI 2.1长线材兼容性测试汇总</h4>
+              <p>超过3米的线材在4K 120Hz加HDR下出现闪屏的案例增多，选18Gbps认证线更稳。</p>
+            </div>
+            <div class="news-item">
+              <span class="n-date">10月22日</span>
+              <h4>杜比视界动态映射固件更新</h4>
+              <p>部分播放器更新后对1000尼特片源的映射更保守，暗部提亮程度下降。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 榜单 -->
+      <section class="block" id="ranking">
+        <div class="block-head">
+          <h2>本月画质榜：按可核对规格排序</h2>
+          <span class="more">2026年10月—11月8日</span>
+        </div>
+        <p class="block-lead">排序依据为母版扫描规格、HDR标注与实际观感三项加权，不按影片评分。同一影片不同版本只取本月最优版本。</p>
+        <ol class="rank">
+          <li><div class="rt">《阿拉伯的劳伦斯》60周年修复<small>65mm底片8K扫描下变4K，HDR10 1000尼特，218分钟</small></div><span class="score">9.4</span></li>
+          <li><div class="rt">《沙丘：第二部》IMAX版<small>1.43:1画幅段落保留，流媒体峰值约22 Mbps</small></div><span class="score">9.1</span></li>
+          <li><div class="rt">《天国王朝》导演剪辑版<small>35mm扫描4K，194分钟，城门段落层次明显</small></div><span class="score">8.9</span></li>
+          <li><div class="rt">《银翼杀手》最终剪辑<small>65mm扫描，HDR10 1000尼特，夜景色带控制好</small></div><span class="score">8.8</span></li>
+          <li><div class="rt">《哥斯拉-1.0》黑白版<small>SDR 100尼特，颗粒与高对比表现稳定</small></div><span class="score">8.6</span></li>
+        </ol>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="block" id="reco">
+        <div class="block-head">
+          <h2>相关推荐：接着看这些具体条目</h2>
+        </div>
+        <div class="reco">
+          <a href="/#deep">65mm底片扫描修复片单</a>
+          <a href="/#deep">1.43:1画幅影片核对表</a>
+          <a href="/#guide">影碟背标HDR标识识别</a>
+          <a href="/#latest">导演剪辑版片长对照</a>
+          <a href="/#faq">流媒体码率实测方法</a>
+          <a href="/#comments">杜比视界调色差异讨论</a>
+          <a href="/#picks">黑白修复影片推荐</a>
+          <a href="/#ranking">本月画质榜完整条目</a>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- 侧栏 -->
+    <aside class="side">
+      <div class="side-sticky">
+        <div class="side-card">
+          <h3>页内导航</h3>
+          <nav class="side-toc" id="sideToc" aria-label="页内导航">
+            <a href="/#overview">领域概览</a>
+            <a href="/#picks">精选片单</a>
+            <a href="/#latest">最新更新</a>
+            <a href="/#channels">分类入口</a>
+            <a href="/#deep">深度解析</a>
+            <a href="/#guide">体验指南</a>
+            <a href="/#faq">常见问题</a>
+            <a href="/#comments">影迷评论</a>
+            <a href="/#news">相关资讯</a>
+            <a href="/#ranking">本月画质榜</a>
+          </nav>
+        </div>
+        <div class="side-card">
+          <h3>本周时间线</h3>
+          <ul class="timeline">
+            <li><b>11月7日</b>《沙丘：第二部》画幅讨论帖过千回复</li>
+            <li><b>11月6日</b>IMAX版流媒体上线</li>
+            <li><b>11月3日</b>《哥斯拉-1.0》黑白版影碟发行</li>
+            <li><b>10月30日</b>《疾速追杀4》调色重传</li>
+            <li><b>10月24日</b>《天国王朝》4K发行</li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>规格速查</h3>
+          <ul>
+            <li><a href="/#deep">HDR10<span>静态元数据，峰值600—1000尼特</span></a></li>
+            <li><a href="/#deep">杜比视界<span>动态元数据，逐帧映射</span></a></li>
+            <li><a href="/#deep">IMAX 1.90:1<span>接近16:9，切换段落</span></a></li>
+            <li><a href="/#guide">DTS-HD MA 5.1<span>影碟常见无损音轨</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- 页脚 -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a href="/#top" class="brand" aria-label="返回顶部">
+          <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+            <rect x="6" y="16" width="52" height="34" rx="5" fill="none" stroke="#e8b64c" stroke-width="3"/>
+            <circle cx="24" cy="26" r="4" fill="#e8b64c"/>
+            <circle cx="40" cy="26" r="4" fill="#e8b64c"/>
+            <circle cx="24" cy="40" r="4" fill="#e8b64c" opacity=".5"/>
+            <circle cx="40" cy="40" r="4" fill="#e8b64c" opacity=".5"/>
+            <path d="M20 10h10M34 10h10" stroke="#4fb3a5" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <span class="name">国外<em>高清</em>大片</span>
+        </a>
+        <p class="about">把画质拆成母版、HDR、画幅与片长四项可核对参数。片源信息来自2026年10月至11月的影碟背标与流媒体实测，示例数据仅作比较参考。</p>
+      </div>
+      <div>
+        <h4>片源频道</h4>
+        <ul>
+          <li><a href="/#overview">4K HDR片源</a></li>
+          <li><a href="/#deep">IMAX画幅版本</a></li>
+          <li><a href="/#deep">杜比视界对照</a></li>
+          <li><a href="/#latest">导演剪辑版片长</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>观看参考</h4>
+        <ul>
+          <li><a href="/#guide">影碟背标识别</a></li>
+          <li><a href="/#guide">流媒体码率测试</a></li>
+          <li><a href="/#faq">电视播出版删减</a></li>
+          <li><a href="/#ranking">本月画质榜</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>影迷互动</h4>
+        <ul>
+          <li><a href="/#comments">影碟收藏者讨论</a></li>
+          <li><a href="/#picks">精选片单</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#reco">相关推荐</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>© 2026 国外高清大片 · 片源规格记录为示例内容，购买与播放以实际发行背标为准</p>
+      <p class="upd">页面更新：2026-11-08 · 对应更新项：<a href="/#latest">11月6日IMAX画幅版上线记录</a></p>
+    </div>
+  </div>
+</footer>
+
+<button class="totop" id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* 移动端菜单 */
+  var menuBtn = document.getElementById('menuBtn');
+  var mobileNav = document.getElementById('mobileNav');
+  menuBtn.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mobileNav.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 本地搜索 */
+  var searchData = [
+    {t:'《阿拉伯的劳伦斯》60周年修复', d:'65mm底片8K扫描，HDR10 1000尼特，218分钟', u:'/#picks'},
+    {t:'《沙丘：第二部》IMAX画幅版', d:'1.43:1与1.90:1画幅切换，11月6日上线', u:'/#latest'},
+    {t:'《天国王朝》导演剪辑版', d:'194分钟，35mm扫描4K，10月24日发行', u:'/#picks'},
+    {t:'《奥本海默》杜比视界与HDR10+', d:'10月17日两家平台上线，调色版本不同', u:'/#deep'},
+    {t:'《银翼杀手》最终剪辑修复', d:'65mm扫描，HDR10 1000尼特，夜景色带控制', u:'/#picks'},
+    {t:'《教父》50周年4K版', d:'10月27日补货，第二批背标无花絮', u:'/#latest'},
+    {t:'《哥斯拉-1.0》黑白版', d:'SDR 100尼特，强调胶片颗粒，11月3日发行', u:'/#latest'},
+    {t:'《疾速追杀4》调色重传', d:'修正第2章暗部泛灰，10月30日重传', u:'/#latest'},
+    {t:'影碟背标HDR标识识别', d:'HDR10、杜比视界、HDR10+的区别与辨认', u:'/#guide'},
+    {t:'流媒体码率实测方法', d:'播放时按信息键看实时码率，15—25 Mbps区间', u:'/#guide'},
+    {t:'导演剪辑版片长对照', d:'《天国王朝》194分钟与院线版144分钟', u:'/#faq'},
+    {t:'IMAX画幅电视裁切', d:'填充屏幕会裁掉左右约12%画面', u:'/#faq'},
+    {t:'杜比视界峰值1000尼特', d:'对室内戏高光调色的影响', u:'/#deep'},
+    {t:'本月画质榜', d:'按母版、HDR与观感加权排序的前五', u:'/#ranking'}
+  ];
+  var input = document.getElementById('searchInput');
+  var result = document.getElementById('searchResult');
+
+  function render(q){
+    q = q.trim().toLowerCase();
+    if(!q){ result.classList.remove('show'); result.innerHTML=''; return; }
+    var hits = searchData.filter(function(item){
+      return item.t.toLowerCase().indexOf(q) > -1 || item.d.toLowerCase().indexOf(q) > -1;
+    });
+    result.innerHTML = '';
+    if(hits.length === 0){
+      var empty = document.createElement('span');
+      empty.className = 'empty';
+      empty.textContent = '没有匹配的片名或规格，换个关键词试试。';
+      result.appendChild(empty);
+    } else {
+      hits.slice(0,8).forEach(function(item){
+        var a = document.createElement('a');
+        a.href = item.u;
+        a.setAttribute('role','option');
+        a.innerHTML = item.t + '<span style="display:block;color:#7f8fa3;font-size:.74rem">' + item.d + '</span>';
+        result.appendChild(a);
+      });
+    }
+    result.classList.add('show');
+  }
+  input.addEventListener('input', function(){ render(input.value); });
+  document.addEventListener('click', function(e){
+    if(!result.contains(e.target) && e.target !== input){ result.classList.remove('show'); }
+  });
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ result.classList.remove('show'); input.blur(); }
+  });
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('toTop');
+  function onScroll(){
+    if(window.scrollY > 520){ toTop.classList.add('show'); } else { toTop.classList.remove('show'); }
+    updateToc();
+  }
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+  window.addEventListener('scroll', onScroll, {passive:true});
+
+  /* 侧栏滚动高亮 */
+  var tocLinks = Array.prototype.slice.call(document.querySelectorAll('#sideToc a'));
+  var sections = tocLinks.map(function(a){
+    var id = a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  });
+  function updateToc(){
+    var offset = 130;
+    var current = 0;
+    sections.forEach(function(sec, i){
+      if(sec && sec.getBoundingClientRect().top <= offset){ current = i; }
+    });
+    tocLinks.forEach(function(a, i){
+      if(i === current){ a.classList.add('on'); } else { a.classList.remove('on'); }
+    });
+  }
+  updateToc();
+})();
+</script>
+</body>
+                                                                            </html>
